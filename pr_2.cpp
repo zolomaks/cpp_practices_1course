@@ -89,7 +89,6 @@ void Draw(struct Record* records, int size) {
         cout << left << "|"; cout.width(9); cout << left << records[i].name;
         cout << left << "|"; cout.width(17); cout << left << records[i].propertyType;
         cout << left << "|";  cout << right; printWithZero4(records[i].area, 15);
-        //cout.precision(2);
         cout << left << "|"; cout.width(16); cout << right << records[i].employCount;
         cout << left << "|";
         printDate(records[i].date.day, records[i].date.month, records[i].date.year, 16);
